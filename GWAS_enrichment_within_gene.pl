@@ -5,7 +5,7 @@
 ## Author: Wentao Cai <wtaocai@gmail.com>
 ## Created: 11 Oct 2020
 ## Version: 0.01
-my $usage = "\nUsage:\n\t perl GWAS_enrichment.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -t [permutation_times]\n\n";
+my $usage = "\nUsage:\n\t perl GWAS_enrichment.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -n [permutation_times]\n\n";
 foreach my $i (0 ..scalar(@ARGV)-1) {
   if($ARGV[$i] eq '-a') {
     $T1 = $ARGV[++$i];
