@@ -29,7 +29,7 @@ Usage:
 
 If you use the software, please cite:
 
-Integrated Small RNA Sequencing, Transcriptome and GWAS Data Reveal microRNA Regulation in Response to Milk Protein Traits in Chinese Holstein Cattle. Frontiers in Genetics,2021.(https://www.frontiersin.org/articles/10.3389/fgene.2021.726706/full "Citation Paper"))
+[Integrated Small RNA Sequencing, Transcriptome and GWAS Data Reveal microRNA Regulation in Response to Milk Protein Traits in Chinese Holstein Cattle. Frontiers in Genetics,2021.](https://www.frontiersin.org/articles/10.3389/fgene.2021.726706/full "Citation Paper"))
 
 
 ## Author
