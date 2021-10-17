@@ -15,14 +15,24 @@ In which, <img width="40" alt="image" src="https://user-images.githubusercontent
 In order to download SumGSE, you should clone this repository via the commands
 
    ```shell
-   git clone https://github.com/bulik/ldsc.git  
-   cd SumGSE
+   git clone https://github.com/WentaoCai/GWAS_enrichment.git 
+   cd GWAS_enrichment
    ```   
-
-## 2. Reference
-
-
+Once the above has completed, you can run:
+   `SumGSE.pl -h`
 
 Usage:
 
-perl GWAS_enrichment.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -t [permutation_times]
+   `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -t [permutation_times]`
+
+## 4.Citation
+
+If you use the software, please cite:
+
+Integrated Small RNA Sequencing, Transcriptome and GWAS Data Reveal microRNA Regulation in Response to Milk Protein Traits in Chinese Holstein Cattle. Frontiers in Genetics,2021.(https://www.frontiersin.org/articles/10.3389/fgene.2021.726706/full "Citation Paper"))
+
+
+## Author
+
+Wentao Cai, Institute of Animal Science of CAAS
+Issues with SumGSE? Email: wtaocai@gmail.com
