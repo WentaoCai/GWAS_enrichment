@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 ###########################################################################
-## GWAS_enrichment.pl --- Process genome region bed,GWAS summary
+## sumGSE.pl --- Process genome region bed,GWAS summary
 ############################################################################
 ## Author: Wentao Cai <wtaocai@gmail.com>
-## Created: 11 Oct 2020
-## Version: 0.01
-my $usage = "\nUsage:\n\t perl GWAS_enrichment.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -n [permutation_times]\n\n";
+## updated: 17 Oct 2021
+## Version: 0.02
+my $usage = "\nUsage:\n\t perl sumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -n [permutation_times]\n\n";
 foreach my $i (0 ..scalar(@ARGV)-1) {
   if($ARGV[$i] eq '-a') {
     $T1 = $ARGV[++$i];
