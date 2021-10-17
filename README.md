@@ -14,8 +14,8 @@ In which, <img width="40" alt="image" src="https://user-images.githubusercontent
 
 In order to download SumGSE, you should clone this repository via the commands
 
-`git clone https://github.com/bulik/ldsc.git  
-cd SumGSE`
+   `git clone https://github.com/bulik/ldsc.git  
+   cd SumGSE`
 
 ## 2. Reference
 
