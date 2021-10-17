@@ -1,6 +1,6 @@
 # This sum-based method for GWAS signal enrichment analysis 
 
-1.Introduction
+## 1.Introduction
 
 The sum-based method uses signals of all markers within a pre-defined candidate feature. Briefly, we calculated the following summary statistics for candidate regions: 
 
