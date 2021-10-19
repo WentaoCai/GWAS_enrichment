@@ -41,7 +41,7 @@ if you want to check if your chosed regions were more enriched with GWAS signals
 
 if you want to check if your chosed regions were more enriched with GWAS signals than the specific regions. you can used:
 
-   `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed]`
+   `perl SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed]`
    
 The usage 2 may be useful to check the enrichment of differentailly expressed (genes/methylation/...）compare to that of all (genes/methylation...) in genome.
 
