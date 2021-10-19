@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-SumGSE is a tool to integrate genomic information of biological mechanisms with GWAS summary statistics for complex traits. Almost all of the software here is command-line based.
+SumGSE is a tool to integrate genomic information of biological mechanisms with GWAS summary statistics for complex traits. All of the software here is command-line based.
 
 The sum-based method uses signals of all markers within a pre-defined candidate feature. Briefly, we calculated the following summary statistics for candidate regions: 
 
