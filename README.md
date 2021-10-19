@@ -23,7 +23,21 @@ Once the above has completed, you can run:
 
 Usage:
 
-   `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -g [specific.regions] -e [genome_region_extention] -t [permutation_times]`
+   `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt]`
+
+Options:
+
+        -i    input file in bed format. The input file should be genome feature regions(such as DEGs，miRNAs targets, Peaks from ChIP-seq, ATAC, et al.)  The first three columns should be chromosome, start, end. Example: 1   567821 573421  EEF1D
+
+        -g    GWAS summary statistics. The first two columns should be chromosome and position, the last column shoud be effect values,such as t value or beta value. Example: 1  123089 rs0011345  0.00045  -1.4625
+
+        -e    extended range (KB) for genome feature regions. For example, the -e 100 means  genome feature regions should also include their unstream/downstream 100kb region. Default -e is 0.
+
+        -n    repeat n times for the permutation test. Default -n is 1000.
+
+        -o    output file. Defualt the output file name is "SumGSE_permutation.out".
+
+        -s    specific regions (Optional). If assuming -b, the permutation SNPs will be limited in these specific regions.
 
 ## 3. Citation
 
