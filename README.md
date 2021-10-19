@@ -23,18 +23,18 @@ Once the above has completed, you can run:
 
 
 
-### Usage1: The enrichment of GWAS signals for your chosed regions.
+### Usage 1: The enrichment of GWAS signals for your chosed regions.
 
 if you want to check if your chosed regions were more enriched with GWAS signals. you can used:
 
    `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt]`
    
    
-### Usage2: The enrichment of GWAS signals of your chosed regions vs specific region.
+### Usage 2: The enrichment of GWAS signals of your chosed regions vs specific region.
 
 if you want to check if your chosed regions were more enriched with GWAS signals than the specific regions. you can used:
 
-   `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed] 
+   `SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed]`
    
 
 Options:
