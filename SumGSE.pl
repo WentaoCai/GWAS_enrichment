@@ -17,7 +17,7 @@ print "
 
 ";
 
-my $usage = "\nUsage:\n\t perl SumGSE.pl -a [genome_region.bed] -g [GWAS_summaries.txt] -s [specific.regions] -e [genome_region_extention] -n [permutation_times]\n;
+my $usage = "\nUsage:\n\t perl SumGSE.pl -i [genome_region.bed] -g [GWAS_summaries.txt] -s [specific.regions] -e [genome_region_extention] -n [permutation_times]\n;
 
 
 Options:
