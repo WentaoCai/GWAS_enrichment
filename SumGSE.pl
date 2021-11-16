@@ -38,7 +38,7 @@ Options:
 
 
 foreach my $i (0 ..scalar(@ARGV)-1) {
-  if($ARGV[$i] eq '-a') {
+  if($ARGV[$i] eq '-i') {
     $inputfile = $ARGV[++$i];
   }elsif($ARGV[$i] eq '-g') {
     $GWAS = $ARGV[++$i];
