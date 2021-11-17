@@ -24,7 +24,7 @@ Options:
 
         -i    input file in bed format. The input file should be genome feature regions(such as DEGs，miRNAs targets, Peaks from ChIP-seq, ATAC, et al.)  The first three columns should be chromosome, start, end. Example: 1   567821 573421  EEF1D
 
-        -g    GWAS summary statistics. The first two columns should be chromosome and position, the last column shoud be effect values,such as t value or beta value. Example: 1  123089 rs0011345  0.00045  -1.4625
+        -g    GWAS summary statistics. The second and third columns should be chromosome and position, the last column shoud be effect values,such as t value or beta value. Example: 1  123089 rs0011345  0.00045  -1.4625
 
         -e    extended range (KB) for genome feature regions. For example, the -e 100 means  genome feature regions should also include their unstream/downstream 100kb region. Default -e is 0.
 
