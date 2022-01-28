@@ -27,13 +27,13 @@ Once the above has completed, you can run:
 
 if you want to check if your chosed regions were more enriched with GWAS signals. you can used:
 
-   `perl SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt]`
+   `perl SumGSE.pl -i [genome_region.bed] -b [GWAS_summaries.txt]`
  
  The usage 1 is useful for the feature regions, such as lncRNAs, ChIP/ATAC peak et al.  
  
  Example: 
  
- `perl SumGSE.pl -a lncRNA.test.bed -g GWAS_statistics.txt -e 50 -n 1000`
+ `perl SumGSE.pl -i lncRNA.test.bed -g GWAS_statistics.txt -e 50 -n 1000`
  
  
    
@@ -41,13 +41,13 @@ if you want to check if your chosed regions were more enriched with GWAS signals
 
 if you want to check if your chosed regions were more enriched with GWAS signals than the specific regions. you can used:
 
-   `perl SumGSE.pl -a [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed]`
+   `perl SumGSE.pl -i [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed]`
    
 The usage 2 may be useful to check the enrichment of differentailly expressed (genes/methylation/...）compare to that of all (genes/methylation...) in genome.
 
 Example: 
  
- `perl SumGSE.pl -a gene.test.bed -g GWAS_statistics.txt -s swine.gene.bed -e 50 -n 1000`
+ `perl SumGSE.pl -i gene.test.bed -g GWAS_statistics.txt -s swine.gene.bed -e 50 -n 1000`
 
 
 ### Options:
