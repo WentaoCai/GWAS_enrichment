@@ -62,7 +62,7 @@ Example:
 
         -o    output file. Defualt the output file name is "SumGSE_permutation.out".
 
-        -s    specific regions (Optional). If assuming -b, the permutation SNPs will be limited in these specific regions.
+        -s    specific regions (Optional). If assuming -s, the permutation SNPs will be limited in these specific regions.
 
 ## 3. Citation
 
