@@ -25,9 +25,9 @@ Once the above has completed, you can run:
 
 ### Usage 1: The enrichment of GWAS signals for your chosed regions.
 
-if you want to check if your chosed regions were more enriched with GWAS signals. you can used:
+If you want to check if your chosed regions were more enriched with GWAS signals. you can used:
 
-   `perl SumGSE.pl -i [genome_region.bed] -b [GWAS_summaries.txt]`
+   `perl SumGSE.pl -i [genome_region.bed] -g [GWAS_summaries.txt]`
  
  The usage 1 is useful for the feature regions, such as lncRNAs, ChIP/ATAC peak et al.  
  
@@ -37,9 +37,9 @@ if you want to check if your chosed regions were more enriched with GWAS signals
  
  
    
-### Usage 2: The enrichment of GWAS signals of your chosed regions vs specific region.
+### Usage 2: The enrichment of GWAS signals of your chosed regions limited in specific region.
 
-if you want to check if your chosed regions were more enriched with GWAS signals than the specific regions. you can used:
+If you want to check if your chosed regions were more enriched with GWAS signals in the specific regions. you can used:
 
    `perl SumGSE.pl -i [genome_region.bed] -b [GWAS_summaries.txt] -s [specific_regions.bed]`
    
@@ -52,15 +52,15 @@ Example:
 
 ### Options:
 
-        -i    input file in bed format. The input file should be genome feature regions(such as DEGs，miRNAs targets, Peaks from ChIP-seq, ATAC, et al.)  The first three columns should be chromosome, start, end. Example: 1   567821 573421  EEF1D
+        -i    input file in bed format (Required). The input file should be genome feature regions(such as DEGs，miRNAs targets, Peaks from ChIP-seq, ATAC, et al.)  The first three columns should be chromosome, start, end. Example: 1   567821 573421  EEF1D
 
-        -g    GWAS summary statistics. The first two columns should be chromosome and position, the last column shoud be effect values,such as t value or beta value. Example: 1  123089 rs0011345  0.00045  -1.4625
+        -g    GWAS summary statistics (Required). The first two columns should be chromosome and position, the last column shoud be effect values,such as t value or beta value. Example: 1  123089 rs0011345  0.00045  -1.4625
 
-        -e    extended range (KB) for genome feature regions. For example, the -e 100 means  genome feature regions should also include their unstream/downstream 100kb region. Default -e is 0.
+        -e    extended range (KB) for genome feature regions (Optional). For example, the -e 100 means genome feature regions should also include their unstream/downstream 100kb region. Default -e is 0.
 
-        -n    repeat n times for the permutation test. Default -n is 1000.
+        -n    repeat n times for the permutation test (Optional). Default -n is 1000.
 
-        -o    output file. Defualt the output file name is "SumGSE_permutation.out".
+        -o    output file (Optional). Default the output file name is "SumGSE_permutation.out".
 
         -s    specific regions (Optional). If assuming -s, the permutation SNPs will be limited in these specific regions.
 
