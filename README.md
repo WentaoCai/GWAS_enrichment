@@ -1,4 +1,4 @@
-# This Sum-based method for GWAS Signal Enrichment analysis (SumGSE)
+# Sum-based method for GWAS Signal Enrichment analysis (SumGSE)
 
 ## 1. Introduction
 
